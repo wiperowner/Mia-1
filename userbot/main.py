@@ -35,8 +35,8 @@ ALIVE_MSG = [
     "`⛈️ Yeni gibi görünüyor!`, **{sirisahip}:3**",
     "✨ `Userbot sahibinin emirlerine hazır...`",
     "`Huh!` **{sirisahip}** `beni çağırıyor 🍰 < bu senin için 🥺..`",
-    "{mention} **Siri Senin İçin Çalışıyor✨**",
-    "{username}, `SiriOT {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
+    "{mention} **Mia Senin İçin Çalışıyor✨**",
+    "{username}, `MiaUserBot {worktime} zamandır çalışıyor...`\n——————————————\n**Telethon sürümü :** `{telethon}`\n**Userbot sürümü  :** `{siri}`\n**Python sürümü    :** `{python}`\n**Plugin sayısı :** `{plugin}`\n——————————————\n**Emrine amadeyim dostum... 😇**"
 ]
 
 DIZCILIK_STR = [
@@ -189,10 +189,10 @@ except:
 try:
     bot.start()
     idim = bot.get_me().id
-    siribl = requests.get('https://raw.githubusercontent.com/robotlog/datas/master/blacklist.json').json()
+    siribl = requests.get('https://raw.githubusercontent.com/Miauserbot/datas/master/blacklist.json').json()
     if idim in siribl:
-        bot.send_message("me", f"`❌ Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
-        LOGS.error("Siri yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
+        bot.send_message("me", f"`❌ Mia yöneticileri sizi bottan yasakladı! Bot kapatılıyor...`")
+        LOGS.error("Mia yöneticileri sizi bottan yasakladı! Bot kapatılıyor...")
         bot.disconnect()
         sys.exit(1)
     # ChromeDriver'ı Ayarlayalım #
@@ -286,12 +286,12 @@ for module_name in ALL_MODULES:
 os.system("clear")
 
 LOGS.info("+===========================================================+")
-LOGS.info("|                     ✨Siri Userbot✨                       |")
+LOGS.info("|                     ✨Mia Userbot✨                       |")
 LOGS.info("+==============+==============+==============+==============+")
 LOGS.info("|                                                            |")
 LOGS.info("Botunuz çalışıyor! Herhangi bir sohbete .alive yazarak Test edin."
-          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/SiriSupport")
-LOGS.info(f"Bot versiyonunuz: Siri {SIRI_VERSION}")
+          " Yardıma İhtiyacınız varsa, Destek grubumuza gelin t.me/MiaSupport")
+LOGS.info(f"Bot versiyonunuz: Mia {SIRI_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
