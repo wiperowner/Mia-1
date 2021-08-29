@@ -9,7 +9,7 @@
 nowtime=$(date)
 echo "
 SiriUserBot
-(C) @SiriOT
+(C) @MiaUserBot
 Thx @DevsExpo.
 Time : $nowtime
 "
@@ -38,7 +38,7 @@ ech_final () {
 =+---------------------------------------------------------+=
 Deployment Sucessfull.
 Docker Images Are Being Pushed, Please Wait.
-Thank You For Installing Siri.
+Thank You For Installing Mia.
 =+---------------------------------------------------------+=
     "
 }
