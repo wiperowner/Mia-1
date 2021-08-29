@@ -1,11 +1,3 @@
-# Copyright (C) 2020 Thanks to Yusuf Usta.
-#
-# Licensed under the  GPL-3.0 License;
-# you may not use this file except in compliance with the License.
-#
-
-# SiriUserBot - Berceste 
-
 from userbot.helps.scan import *
 import os
 import sys
@@ -179,10 +171,10 @@ async def pins(event):
         return
 
     dosyaAdi = reply_message.file.name
-#    plugins = await event.client.get_messages('@siriplugin', limit=None, search=dosyaAdi, filter=InputMessagesFilterDocument)
+#    plugins = await event.client.get_messages('@miaplugin', limit=None, search=dosyaAdi, filter=InputMessagesFilterDocument)
 
 #    if len(plugins) == 0:
-#        await event.edit('🍕 `Pizzamı yemeye devam edeceğim. Bu bir Siri Plugini değil!`')
+#        await event.edit('🍕 `Bu bir Mia Plugini değil!`')
 #        return
 
 
@@ -218,7 +210,7 @@ async def pins(event):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.siri {cmdhelp}` __yazın.__')
+                return await event.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.mia {cmdhelp}` __yazın.__')
             else:
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
                 userbot.cmdhelp.CmdHelp(dosya).add_warning('Komutlar bulunamadı!').add()
@@ -227,12 +219,12 @@ async def pins(event):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.siri {cmdhelp}` __yazın.__')
+                return await event.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.mia {cmdhelp}` __yazın.__')
             else:
                 dosyaAdi = reply_message.file.name.replace('.py', '')
                 extractCommands(dosya)
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await event.edit(f'**Modül Başarıyla Yüklendi**\n__Modülün  Kullanımını Öğrenmek İçin__ `.siri {dosyaAdi}` __yazın.__')
+                return await event.edit(f'**Modül Başarıyla Yüklendi**\n__Modülün  Kullanımını Öğrenmek İçin__ `.mia {dosyaAdi}` __yazın.__')
 
 @register(pattern="^.ptest")
 async def ptest(event):
@@ -403,7 +395,7 @@ async def pinsasistan(ups):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await usp.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.siri {cmdhelp}` __yazın.__')
+                return await usp.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.mia {cmdhelp}` __yazın.__')
             else:
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
                 userbot.cmdhelp.CmdHelp(dosya).add_warning('Komutlar bulunamadı!').add()
@@ -412,12 +404,12 @@ async def pinsasistan(ups):
             if re.search(r'CmdHelp\(.*\)', dosy):
                 cmdhelp = re.findall(r"CmdHelp\([\"'](.*)[\"']\)", dosy)[0]
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await usp.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.siri {cmdhelp}` __yazın.__')
+                return await usp.edit(f'**Modül Başarıyla Yüklendi!**\n__Modülün Kullanımını Öğrenmek İçin__ `.mia {cmdhelp}` __yazın.__')
             else:
                 dosyaAdi = reply_message.file.name.replace('.py', '')
                 extractCommands(dosya)
                 await reply_message.forward_to(PLUGIN_CHANNEL_ID)
-                return await usp.edit(f'**Modül Başarıyla Yüklendi**\n__Modülün  Kullanımını Öğrenmek İçin__ `.siri {dosyaAdi}` __yazın.__')
+                return await usp.edit(f'**Modül Başarıyla Yüklendi**\n__Modülün  Kullanımını Öğrenmek İçin__ `.mia {dosyaAdi}` __yazın.__')
 
 
 
