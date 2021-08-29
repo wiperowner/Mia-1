@@ -31,12 +31,12 @@
             "ALREADY_DELETED": "`Plugin dosyası zaten silinmiş.`",
             "NOT_FOUND_PLUGIN": "`Böyle bir plugin belki vardı, belki de yoktu. Ama şu an olmadığı kesin.`",
             "PLUG_DELETED": "`Plugin başarıyla silindi! Siri yeniden başlatılıyor`",
-            "SIRI_PLUGIN_CAPTION": "Bu bir [Siri](https://t.me/SiriUserBot) pluginidir."
+            "SIRI_PLUGIN_CAPTION": "Bu bir [Mia](https://t.me/MiaUserBot) pluginidir."
         },
         
         "__siri": {
             "NEED_PLUGIN": "✨ Lütfen bir Siri modülü adı belirtin.",
-            "NEED_MODULE": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Siri modülü için yardım istediğinizi belirtin !!\nKullanım: .siri <modül adı>"
+            "NEED_MODULE": "✨𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡ Lütfen hangi Siri modülü için yardım istediğinizi belirtin !!\nKullanım: .siri <modül adı>"
         },
 
         "__helpme": {
@@ -116,7 +116,7 @@
             "ALREADY": "`Görünüşe göre %s zaten otomatik olarak değişiyor.`",
             "SETTING": "`%s ayarlanıyor...`",
             "BIO": "📆 Tarih: {tarih} | ⏰ Saat: {saat} | ",
-            "NICK": "@SiriOT",
+            "NICK": "@MiaUserBot",
             "SETTED": "`%s ayarlandı :)`",
             "NAME": "⌚%s"
         },
@@ -134,7 +134,7 @@
 
 
         "botfather": {
-            "ERROR": "`⛔ Sirinin Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`"
+            "ERROR": "`⛔  Mianın Bot Oluşturması İçin Eksik Bilgi Verme Lütfen!`"
         },
 
         "combot": {
@@ -172,8 +172,8 @@
             "EFECTING": "`Efekt uygulanıyor...`",
             "NOT_FOUND_EFECT": "**Belirttiğiniz efekt bulunamadı! **`Kullanılabileceğiniz efektler: ``çocuk/robot/earrape/hızlı/parazit/yankı`",
             "NEED_VIDEO": "`Lütfen bir videoya yanıt verin!`",
-            "WITH_SIRI":"@SiriOT `ile efekt uygulandı.`",
-            "WITH_SIRI_GIF": "@SiriOT `ile Gif'e çevirildi.`",
+            "WITH_SIRI":"@MiaUserBot `ile efekt uygulandı.`",
+            "WITH_SIRI_GIF": "@MiaUserBot `ile Gif'e çevirildi.`",
             "CONVERTING_TO_GIF": "Gif'e çeviriliyor...",
             "UPLOADING_GIF": "`Gif yükleniyor...`",
             "ERROR": "Gif'e çeviremedim :/"
@@ -375,10 +375,10 @@
             "GOODMORNIN_YALL": "`Günaydın!`",
             "GOODBYE_MFRS": "`Görüşürüz... *Windows XP kapanma sesi*`",
             "RESTARTING": "`Bot yeniden başlatılıyor...`",
-            "SUPPORT_GROUP": "[Buradan](http://t.me/SiriSupport) destek grubumuza ulaşabilirsiniz.",
-            "CREATOR": "Bu bot @bberc tarafından geliştirilmiştir. \n",
-            "README": "[Siri README.md](https://github.com/SiriUserBot/SiriUserBot/blob/master/README.md)",
-            "REPO": "[Siri Repo](https://github.com/SiriUserBot/siriuserbot)",
+            "SUPPORT_GROUP": "[Buradan](http://t.me/MiaSupport) destek grubumuza ulaşabilirsiniz.",
+            "CREATOR": "Bu bot @wiperowner tarafından yapılmıştır. \n",
+            "README": "[Mia README.md](https://github.com/MiaUserBot/Mia/blob/master/README.md)",
+            "REPO": "[Mia Repo](https://github.com/MiaUserBot/Mia)",
             "CHECK_LOGS": "`Çözülmüş mesaj için userbot loglarını kontrol et!`"
         },
 
@@ -400,7 +400,7 @@
         },
 
         "playstore": {
-            "SEARCH": "`🔎Siri Verdiğiniz Program Arıyor..`",
+            "SEARCH": "`🔎Mia Verdiğiniz Program Arıyor..`",
             "EKS": "`⛔ Lütfen Program adı yazın.. Örnek`",
             "NOT_FOUND": "`⛔ Verdiğiniz Programı Bulamadım..`",
             "PUAN": "Puan :",
@@ -549,7 +549,7 @@
             "SEARCHING": "`Şarkı aranıyor...`",
             "BLOCKED_DEEZER": "`Mmmh sanırım` @DeezerMusicBot `engellemişsin. Lütfen engeli aç.",
             "NOT_FOUND": "`Aradığınız şarkı bulunamadı! Üzgünüm.`",
-            "UPLOADED_WITH": "@SiriOT ile yüklendi.",
+            "UPLOADED_WITH": "@MiaUserBot ile yüklendi.",
             "USAGE": "`Kullanım:` `.song şarkı ismi/youtube url/spotify url`",
             "SEARCHING_SPOT": "`Şarkı aranıyor ve indiriliyor lütfen bekleyin!",
             "DOWNLOADED": "`İndirme işlemi başarılı lütfen bekleyiniz.`",
@@ -621,11 +621,11 @@
             "DO_UPDATE": "`Güncellemeyi yapmak için \".update now\" komutunu kullan.`",
             "FORCE_UPDATE": "`Güncel stabil userbot kodu zorla eşitleniyor...`",
             "UPDATING": "`Bot güncelleştiriliyor...`",
-            "INVALID_APPNAME": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
+            "INVALID_APPNAME": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Hata:** __Güncelleyiciyi kullanabilmek için HEROKU_APPNAME değişkenini tanımlamalısın.__",
             "INVALID_HEROKU": "{}\n`Heroku değişkenleri yanlış veya eksik tanımlanmış.`",
-            "HEROKU_UPDATING": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
+            "HEROKU_UPDATING": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum**: __Güncelleniyor..\n\n💌 UserBot'unuz daha iyi olacağınıza emin olabilirsiniz :) Bu işlem maksimum 10 dakika sürmektedir.__",
             "ERRORS": "Karşılaşılan hatalar burada",
-            "SUCCESSFULLY": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__"
+            "SUCCESSFULLY": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Durum:** __Güncelleme başarıyla tamamlandı!\n\n🔄 Yeniden başlatılıyor...__"
         },
 
         "upload_download": {
@@ -666,7 +666,7 @@
         },
 
         "klon": {
-            "WLKLON": "`Siri yöneticileri klonlanmayı sevmiyor.`"
+            "WLKLON": "`Mia yöneticileri klonlanmayı sevmiyor.`"
         },
 
         "whois": {
