@@ -1,18 +1,18 @@
 {
-  "name": "Siri UserBot",
-  "description": "Siri UserBot",
-  "logo": "https://telegra.ph/Space-01-17",
+  "name": "Mia UserBot",
+  "description": "Mia UserBot",
+  "logo": "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg",
   "keywords": [
     "telegram",
     "userbot",
-	"Siri",
+	"Mia",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ErdemBey1/SiriUserBot",
-  "website":   "https://t.me/Codlar",
-  "success_url": "https://t.me/SiriChat",
+  "repository": "https://github.com/MiaUserBot/Mia",
+  "website":   "https://t.me/wiperowner",
+  "success_url": "https://t.me/MiaSohbet",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -59,7 +59,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Fork sağlamanız durumunda repo URL'nizi buraya ekleyin. Varsayılan olarak kendi repo adresimiz eklidir.",
-      "value": "https://github.com/ErdemBey1/SiriUserBot",
+      "value": "https://github.com/MiaUserBot/mia",
       "required": true
     },
     "COUNTRY": {
@@ -186,7 +186,7 @@
     }, 
     "DEFAULT_BIO": {
       "description": "Varsayılan profil biyografisi.",
-      "value": "@SiriUserBot",
+      "value": "@MiaUserBot",
       "required": false
     },
     "G_DRIVE_CLIENT_SECRET": {
@@ -226,7 +226,7 @@
     },
     "PAKET_ISMI": {
       "description": "Dızla komutu paket ismini belirleyin. Paket ismi şöyle olacaktır: @KullanıcıAdın verdiğin değer 1",
-      "value": "@SiriUserBot Paketi",
+      "value": "@MiaUserBot Paketi",
       "required": false
     },
     "OTOMATIK_KATILMA": {
