@@ -1,12 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
-
-# SiriUserBot - Berceste
-#
-
 """ UserBot yardım komutu """
 
 from userbot.cmdhelp import CmdHelp
@@ -21,7 +12,7 @@ LANG = get_value("__siri")
 
 # ████████████████████████████████ #
 
-@register(outgoing=True, pattern="^.[Ss]iri(?: |$)(.*)")
+@register(outgoing=True, pattern="^.[Mm]ia(?: |$)(.*)")
 async def siri(event):
     """ .siri komutun """
     args = event.pattern_match.group(1).lower()
