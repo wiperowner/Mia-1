@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 @register(outgoing=True, pattern=r"^.hbilgi(?: |$)(.*)") 
 async def hesapstat(event: NewMessage.Event) -> None:  # pylint: disable = R0912, R0914, R0915
     """Istatistikler için bir komut"""
-    waiting_message = await event.edit('`Siri Hesap Istatistikleri toplarken biraz bekle.`')
+    waiting_message = await event.edit('`Mia Hesap Istatistikleri buluyor...`')
     start_time = time.time()
     private_chats = 0
     bots = 0
