@@ -62,7 +62,7 @@ if LANGUAGE not in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
     LANGUAGE = "DEFAULT"
     
 # Siri versiyon
-MIA_VERSION = "v0,1"
+SIRI_VERSION = "v0,1"
 
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
