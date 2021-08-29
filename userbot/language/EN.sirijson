@@ -36,7 +36,7 @@
 
         "__siri": {
             "NEED_PLUGIN": "✨Please provide a Siri module name.",
-            "NEED_MODULE": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Please specify which Siri module you want help for !!\nUsage: .siri <module name>"
+            "NEED_MODULE": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝙷𝚎𝚕𝚙𝚎𝚛✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n⚡Please specify which 𝙼𝚒𝚊 module you want help for !!\nUsage: .mia <module name>"
         },
 
         "__helpme": {
@@ -113,7 +113,7 @@
             "ALREADY": "`It looks like %s is already changing automatically. `",
             "SETTING": "`%s setting...`",
             "BIO": "📅 Date: {tarih} | ⏰ Time: {saat} | ",
-            "NICK": "@SiriOT",
+            "NICK": "@MiaUserBot",
             "SETTED": "`%s set :)`",
             "NAME": "⌚%s"
         },
@@ -166,8 +166,8 @@
             "EFECTING": "`Applying effect...`",
             "NOT_FOUND_EFECT": "**The effect you specified was not found! ** `Effects you can use:\" çocuk/robot/earrape/fast/interference/echo`",
             "NEED_VIDEO": "`Please reply to a Video!`",
-            "WITH_SIRI": "`Effect applied with` @SiriOT",
-            "WITH_SIRI_GIF": "`Turned to Gif with` @SiriOT",
+            "WITH_SIRI": "`Effect applied with` @MiaUserBot",
+            "WITH_SIRI_GIF": "`Turned to Gif with` @MiaUserBot",
             "CONVERTING_TO_GIF": "Turning to gif ...",
             "UPLOADING_GIF": "` Loading Gif ... `",
             "ERROR": "I couldn't turn it into a gif :/"
@@ -298,11 +298,11 @@
 
         "kyolla": {
             "REPLY_MESSAGE": "`Please respond to a message.`",
-            "SUCCESSFUL": "`Siri Sent Message to Recorded Messages Section!`"
+            "SUCCESSFUL": "`Mia Sent Message to Recorded Messages Section!`"
         },
 
         "klon": {
-            "WLKLON": "`Siri managers don't like to be cloned.`"
+            "WLKLON": "`Mia managers don't like to be cloned.`"
         },
 
         "lastfm": {
@@ -360,10 +360,10 @@
             "GOODMORNIN_YALL": "`Good Morning!`",
             "GOODBYE_MFRS": "`I'll see you... *Windows XP shutdown sound* `",
             "RESTARTING": "`Bot restarting...`",
-            "SUPPORT_GROUP": "[From Here](http://t.me/SiriSupport) you can contact our support group.",
+            "SUPPORT_GROUP": "[From Here](http://t.me/MiaSupport) you can contact our support group.",
             "CREATOR": "Developer: @bberc.",
-            "README": "[Siri README.md](https://github.com/SiriUserBot/SiriUserBot/blob/master/README.md)",
-            "REPO": "[Siri Repo](https://github.com/SiriUserBot/Siriuserbot)",
+            "README": "[Mia README.md](https://github.com/MiaUserBot/Mia/blob/master/README.md)",
+            "REPO": "[Mia Repo](https://github.com/MiaUserBot/Mia)",
             "CHECK_LOGS": "`Check userbot logs for decoded message!`"
         },
         "notes": {
@@ -593,11 +593,11 @@
             "DO_UPDATE": "`Use the \".update now\" command to make the update. `",
             "FORCE_UPDATE": "`The current stabil userbot code is being forcibly synchronized... `",
             "UPDATING": "`The bot is being updated ...`",
-            "INVALID_APPNAME": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Error:** __To use the updater, you must define the HEROKU_APPNAME variable..__",
+            "INVALID_APPNAME": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n🛠️**Error:** __To use the updater, you must define the HEROKU_APPNAME variable..__",
             "INVALID_HEROKU": "{}\n`Heroku variables are incorrect or under defined.`",
-            "HEROKU_UPDATING": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status**: __Updating..\n\n💌 You can be sure that your UserBot will be better :) This process takes a maximum of 10 minutes..__",
+            "HEROKU_UPDATING": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status**: __Updating..\n\n💌 You can be sure that your UserBot will be better :) This process takes a maximum of 10 minutes..__",
             "ERRORS": "Errors encountered here",
-            "SUCCESSFULLY": "✨ 𝚂𝚒𝚛𝚒 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status:** __Update completed successfully!\n\n🔄 Restarting...__"
+            "SUCCESSFULLY": "✨ 𝙼𝚒𝚊 𝚄𝚜𝚎𝚛𝚋𝚘𝚝 𝚄𝚙𝚍𝚊𝚝𝚎✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n❤️**Status:** __Update completed successfully!\n\n🔄 Restarting...__"
         },
 
         "upload_download": {
