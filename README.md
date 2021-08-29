@@ -1,58 +1,41 @@
 
 <div align="center">
-  <img src="https://i.hizliresim.com/qb3gbap.jpg" width="300" height="300">
-  <h1>🇹🇷 Ⲋⲓⲅⲓ Ⳙ⳽ⲉⲅⲂⲟⲧ 🇺🇲</h1>
+  <img src="https://i.hizliresim.com/9jp6pqi.jpg" width="300" height="300">
+  <h1>𝙰𝚝𝚑𝚎𝚗𝚊 𝚄𝚜𝚎𝚛 𝙱𝚘𝚝</h1>
 </div>
 <p align="center">
-    𝑆𝑖𝑟𝑖 𝑈𝑠𝑒𝑟𝐵𝑜𝑡, 𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝑘𝑢𝑙𝑙𝑎𝑛𝑚𝑎𝑛ı𝑧ı 𝑘𝑜𝑙𝑎𝑦𝑙𝑎𝑠̧𝑡ı𝑟𝑎𝑛 𝑏𝑖𝑟 𝑏𝑜𝑡𝑡𝑢𝑟. 𝑇𝑎𝑚𝑎𝑚𝑒𝑛 𝑎𝑐̧ı𝑘 𝑘𝑎𝑦𝑛𝑎𝑘𝑙ı 𝑣𝑒 𝑢̈𝑐𝑟𝑒𝑡𝑠𝑖𝑧𝑑𝑖𝑟. <br>
-    𝑆𝑖𝑟𝑖 𝑈𝑠𝑒𝑟𝐵𝑜𝑡 𝑖𝑠 𝑎 𝑏𝑜𝑡 𝑡ℎ𝑎𝑡 𝑚𝑎𝑘𝑒𝑠 𝑖𝑡 𝑒𝑎𝑠𝑦 𝑡𝑜 𝑢𝑠𝑒 𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚. 𝐼𝑡 𝑖𝑠 𝑐𝑜𝑚𝑝𝑙𝑒𝑡𝑒𝑙𝑦 𝑜𝑝𝑒𝑛 𝑠𝑜𝑢𝑟𝑐𝑒 𝑎𝑛𝑑 𝑓𝑟𝑒𝑒.
+    𝔸𝕥𝕙𝕖𝕟𝕒 𝕌𝕤𝕖𝕣 𝔹𝕠𝕥 𝕋𝕖𝕝𝕖𝕘𝕣𝕒𝕞 𝕜𝕦𝕝𝕝𝕒𝕟ı𝕞ı 𝕧𝕖 𝕘𝕣𝕦𝕡 𝕪ö𝕟𝕖𝕥𝕚𝕞𝕚𝕟𝕚 𝕜𝕠𝕝𝕒𝕪𝕝𝕒ş𝕥ı𝕣𝕒𝕟 𝕓𝕚𝕣 𝕓𝕠𝕥𝕥𝕦𝕣.𝔸𝕥𝕙𝕖𝕟𝕒 𝕌𝕤𝕖𝕣 𝔹𝕠𝕥 𝕋𝕖𝕝𝕖𝕘𝕣𝕒𝕞 𝕚𝕤 𝕒 𝕓𝕠𝕥 𝕥𝕙𝕒𝕥 𝕞𝕒𝕜𝕖𝕤𝕥𝕖𝕝𝕖𝕘𝕣𝕒𝕞 𝕖𝕒𝕤𝕚𝕖𝕣.
     <br>
-        <a href="https://github.com/SiriUserBot/SiriUserBot#-otomatik-kurulum--automatic-setup-">| Kurulum/Setup</a> |
-        <a href="https://t.me/SiriOT">Telegram </a> |
-        <a href="https://t.me/SiriSupport">Destek/Support</a> |
+        <a href="https://t.me/AthenaUserBot">Telegram </a> |
+        <a href="https://t.me/AthenaSupport">Destek/Support</a> 
     <br>
 </p>
 
 ----
 
-## 🇹🇷 Otomatik Kurulum / Automatic Setup 🇺🇲
+## Otomatik Kurulum / Automatic Setup
 
-**Android:** 
-
-` rm -rf siriinstaller && bash <(curl -L https://cutt.ly/Hn15uFi) `
-
-**iOS:**  
-
-`apk update && apk add bash && apk add curl && curl -L -o siri_installer.sh https://bit.ly/3ayPGdk && chmod +x siri_installer.sh && bash siri_installer.sh`
-
-**Windows 10:** 
-
-`Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://bit.ly/3dEefrp')`
-
-
-🇹🇷**Tarayıcı Kurulum / Online Setup**🇺🇲
-
-[![Run on Repl.it](https://repl.it/badge/github/SiriUserBot/siriinstaller)](https://repl.it/must4f/siriinstaller)
-
-### 🇹🇷 Elle Kurulum / Manual Setup 🇺🇲
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SiriUserBot/SiriUserBot)
-
-## 🇹🇷 Bilgilendirme / İnformation 🇺🇲
-***Herhangi bir istek & şikâyet & öneri varsa [destek grubuna](https://t.me/SiriSupport) ulaşabilirsiniz.***
-
-***You can reach the [support group](https://t.me/SiriSupport) if there are any requests & complaints & suggestions.***
+**Android-ios-windows:** 
 ```
-    Userbottan dolayı; Telegram hesabınız yasaklanabilir.
-    Bu bir açık kaynaklı projedir, yaptığınız her işlemden kendiniz sorumlusunuz. Kesinlikle Siri yöneticileri sorumluluk kabul etmemektedir.
-    Siriyi kurarak bu sorumlulukları kabul etmiş sayılırsınız.
+Yakında 
+```
+
+### Elle Kurulum / Manual Setup
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/athenauserbot/athenauserbot)
+
+##Bilgilendirme / İnformation
+***Herhangi bir sorun olursa [destek grubuna](https://t.me/AthenaSupport) ulaşabilirsiniz.***
+
+***You can reach the [support group](https://t.me/AthenaSupport) if there is any problem.***
+```
+    User bottan dolayı yasaklana bilirsiniz veya flod wait yiyebilirsiniz bundan yetkililer sorumlu değildir.
 ```
 
 ```
-     Due to Userbot; Your Telegram account may be banned.
-    This is an open source project, you are responsible for everything you do. Absolutely, Siri administrators do not accept responsibility.
-    By establishing Siri, you are deemed to have accepted these responsibilities.
+     You can be banned beacuse of user bot or you can stop beacuse of flood wait but admins cannot do anything.
 ```
 
-### 🇹🇷 Geliştirici / Developer 🇺🇲
+### Developer
+ [![Mehmet](https://github.com/wiperowner.png?size=100)](https://github.com/wiperowner)
  [![Berce](https://github.com/must4f.png?size=100)](https://github.com/must4f) 
