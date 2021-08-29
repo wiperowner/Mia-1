@@ -31,7 +31,7 @@
             "ALREADY_DELETED": "`The Plugin file has already deleted.`",
             "NOT_FOUND_PLUGIN": "`Maybe there was such a plugin, maybe there wasn't. But it's definitely not right now.`",
             "PLUG_DELETED": "`Plugin deleted successfully!` '**You need to restart operations to be implemented.**",
-            "SIRI_PLUGIN_CAPTION": "This is a plugin of [Siri](https://t.me/SiriUserBot)."
+            "SIRI_PLUGIN_CAPTION": "This is a plugin of [Mia](https://t.me/MiaUserBot)."
         },
 
         "__siri": {
@@ -274,7 +274,7 @@
         },
         "galeri": {
             "ADDED_LIST": "`The photo has been queued.`",
-            "INVALID_URL": "`You have entered an invalid image URL. If you have no idea of usage,` `.siri galeri` `please write.`",
+            "INVALID_URL": "`You have entered an invalid image URL. If you have no idea of usage,` `.mia galeri` `please write.`",
             "EXAMPLE": "`Please enter a picture address. As an example: ` `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`",
             "LIST": "Queued Photos",
             "REMOVED": "** The next photo was successfully removed **",
@@ -282,7 +282,7 @@
             "NEED_NUMBER": "Please indicate the order of the image. Example:",
             "WORKING": "`The gallery is already working.`",
             "STARTED": "`The gallery is working`",
-            "NEED_PHOTO": "You need to add photos for the gallery work. If you do not know how to add it, you may know about use with the .siri galeri",
+            "NEED_PHOTO": "You need to add photos for the gallery work. If you do not know how to add it, you may know about use with the .mia galeri",
             "STOPPED": "`The Gallery is stopped!`",
             "ALREADY_STOP": "`Gallery isn't working anyway. `",
             "INVALID": "**Unknown command** Usage:\n\nAdd a photo to the Gallery: `.galeri ekle https://i.resimyukle.xyz/7Qbbc9.jpeg`\nSee the gallery list: `.galeri liste `\nDeleting an ordinary photograph: `.galeri sil <number>`"
@@ -361,7 +361,7 @@
             "GOODBYE_MFRS": "`I'll see you... *Windows XP shutdown sound* `",
             "RESTARTING": "`Bot restarting...`",
             "SUPPORT_GROUP": "[From Here](http://t.me/MiaSupport) you can contact our support group.",
-            "CREATOR": "Developer: @bberc.",
+            "CREATOR": "Developer: @wiperowner.",
             "README": "[Mia README.md](https://github.com/MiaUserBot/Mia/blob/master/README.md)",
             "REPO": "[Mia Repo](https://github.com/MiaUserBot/Mia)",
             "CHECK_LOGS": "`Check userbot logs for decoded message!`"
@@ -383,7 +383,7 @@
         },
 
         "playstore": {
-            "SEARCH": "`🔎Siri Looking For Your Program...`",
+            "SEARCH": "`🔎Mia Looking For Your Program...`",
             "EKS": "`⛔ Please write program name... Example`",
             "NOT_FOUND": "`⛔ I Could Not Find Your Program...`",
             "PUAN": "Point :",
@@ -586,7 +586,7 @@
             "NOT_FOUND": "folder not found.",
             "GIT_ERROR": "Git error!",
             "NOT_GIT": "folder does not look like a git repo. \nBut you can solve this problem by forcibly updating the bot with the .update now command.",
-            "INVALID_BRANCH": "**[UPDATER]: * * ` I think you've modified the Siri bot and you're using your own branch.\nThis confuses the Updater,\nWhere will the update be pulled?\nPlease use the Siri bot from the official repo.`",
+            "INVALID_BRANCH": "**[UPDATER]: * * ` I think you've modified the Mia bot and you're using your own branch.\nThis confuses the Updater,\nWhere will the update be pulled?\nPlease use the Mia bot from the official repo.`",
             "UPDATE": "\n`Your bot` **completely up to date!** `Branch:` **{}**\n",
             "WAS_UPDATE": "New update available for ** { }!\n\nChanges: **\n ` {} `",
             "BIG": "`The change list is too large, you should display it as a file.`",
